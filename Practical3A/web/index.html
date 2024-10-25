@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Uploading</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="FileUploading" method="post" enctype="multipart/form-data">
+        <label for="file">Select file to upload:</label>
+        <input type="file" name="file" id="file" required>
+        <br>
+        <label for="destination">Destination:</label>
+        <input type="text" value="E:\\FileUploadPath" name="destination" required>
+        <br>
+        <input type="submit" value="Upload File" name="upload" id="upload">
+    </form>
+</body>
+</html>
